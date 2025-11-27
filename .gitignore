@@ -3,10 +3,6 @@
 .env.local
 .env.production
 
-# Upload directories
-assets/uploads/
-!assets/uploads/.gitkeep
-
 # Log files
 *.log
 logs/
