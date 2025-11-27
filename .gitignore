@@ -1,5 +1,4 @@
 # PHP configuration files
-config.php
 *.env
 .env.local
 .env.production
