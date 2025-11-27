@@ -8,10 +8,6 @@ config.php
 assets/uploads/
 !assets/uploads/.gitkeep
 
-# Database files
-*.sql
-*.db
-
 # Log files
 *.log
 logs/
