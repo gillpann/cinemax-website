@@ -5,22 +5,30 @@ Website ini juga memiliki **Admin Panel** untuk mengelola daftar film seperti me
 
 ---
 
-## 📥 Cara Clone & Menjalankan Project
+## Cara Clone & Menjalankan Project
 
-### 1️⃣ Clone Repository
+### Clone Repository
 ```bash
 git clone https://github.com/USERNAME/cinemax.git
-Masuk ke folder project:
+```
 
+### Masuk ke folder project:
+```
 cd cinemax
+```
 
+---
 
-2️⃣ Pindahkan ke XAMPP
-Letakkan folder project ini di:
-
+## Pindahkan ke XAMPP
+### Letakkan folder project ini di:
+```
 C:/xampp/htdocs/cinemax
-3️⃣ Import Database
-Buka phpMyAdmin
+```
+
+---
+
+## Import Database
+### Buka phpMyAdmin
 
 Buat database baru, misalnya: cinemax_db
 
@@ -30,16 +38,23 @@ Pilih file: cinemax_db.sql
 
 Klik Go
 
-4️⃣ Atur Koneksi Database
+---
+
+## Atur Koneksi Database
+
 Sesuaikan konfigurasi database pada file (misalnya config/database.php):
-
+```
 $conn = mysqli_connect("localhost", "root", "", "cinemax_db");
+```
 
-5️⃣ Jalankan Website
-Buka browser:
+--- 
+
+## Jalankan Website
+
+### Buka browser:
 
 http://localhost/cinemax
 
-Admin panel biasanya dapat diakses melalui:
+### Admin panel biasanya dapat diakses melalui:
 
 http://localhost/cinemax/admin
