@@ -9,12 +9,12 @@ Website ini juga memiliki **Admin Panel** untuk mengelola daftar film seperti me
 
 ### Clone Repository
 ```bash
-git clone https://github.com/USERNAME/cinemax.git
+git clone https://github.com/gillpann/cinemax-website.git
 ```
 
 ### Masuk ke folder project:
 ```
-cd cinemax
+cd cinemax-website
 ```
 
 ---
@@ -22,7 +22,7 @@ cd cinemax
 ## Pindahkan ke XAMPP
 ### Letakkan folder project ini di:
 ```
-C:/xampp/htdocs/cinemax
+C:/xampp/htdocs/cinemax-website
 ```
 
 ---
@@ -53,8 +53,8 @@ $conn = mysqli_connect("localhost", "root", "", "cinemax_db");
 
 ### Buka browser:
 
-http://localhost/cinemax
+http://localhost/cinemax-website
 
 ### Admin panel biasanya dapat diakses melalui:
 
-http://localhost/cinemax/admin
+http://localhost/cinemax-website/admin
